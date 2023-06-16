@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    background: #fffaf5;
+}
+/* common */
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ====================== */
+.glassesSection .row {
+    height: 660px;
+    width: 100%;
+}
+.glassesSection-left,
+.glassesSection-right {
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.glassesSection-right {
+    position: relative;
+}
+
+.glsBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.vglasses__model {
+    position: relative;
+}
+.vGlasses {
+    position: absolute;
+    top: 190px;
+    left: 116px;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.glasses-info {
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 130px;
+    background-color: #fffaf5;
+    opacity: 0.8;
+}
+
+.glasses-info .title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn-warning {
+    font-size: 2rem;
+}
+
+.glasses-model {
+    position: absolute;
+    bottom: 0;
+}
+.glasses-model img {
+    width: 100%;
+
+    object-fit: cover;
+}
